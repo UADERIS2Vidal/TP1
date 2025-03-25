@@ -34,7 +34,7 @@ Si deseas aprender más sobre cómo escribir documentación en Markdown, puedes 
 
 A continuación, se muestra una imagen de un programador trabajando en su entorno de desarrollo:
 
-![Programador trabajando](https://images.unsplash.com/photo-1581093580676-28f5a5764b5f)
+![Programador trabajando](https://www.lanacion.com.ar/resizer/v2/potenciando-programadores-es-una-iniciativa-local-VQV3UUONR5EJNJUGNXZF2IGP3A.jpg?auth=090a49b5ceca8f981a102997d13190656d6cccefc17023f7f4048ffd39bdcc68&width=420&height=280&quality=70&smart=true)
 
 ## Ejemplo de Ejecución
 
