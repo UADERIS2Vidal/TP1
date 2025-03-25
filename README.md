@@ -28,6 +28,14 @@ Este proyecto utiliza las siguientes tecnologías:
 2. **Git**: Para el control de versiones.
 3. **GitHub**: Para alojar y gestionar el repositorio.
 
+Si deseas aprender más sobre cómo escribir documentación en Markdown, puedes visitar la siguiente página:
+
+[Guía oficial de Markdown](https://www.markdownguide.org/)
+
+A continuación, se muestra una imagen de un programador trabajando en su entorno de desarrollo:
+
+![Programador trabajando](https://images.unsplash.com/photo-1581093580676-28f5a5764b5f)
+
 ## Ejemplo de Ejecución
 
 Al ejecutar el programa, la salida será similar a lo siguiente:
@@ -41,10 +49,3 @@ Prime numbers between 1 and 500 are:
 11
 ...
 
-Si deseas aprender más sobre cómo escribir documentación en Markdown, puedes visitar la siguiente página:
-
-[Guía oficial de Markdown](https://www.markdownguide.org/)
-
-A continuación, se muestra una imagen de un programador trabajando en su entorno de desarrollo:
-
-![Programador trabajando](https://images.unsplash.com/photo-1581093580676-28f5a5764b5f)
