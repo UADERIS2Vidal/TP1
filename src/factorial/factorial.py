@@ -28,16 +28,29 @@ def calcular_factoriales_en_rango(start, end):
 # Verificamos si se pasó un argumento
 if len(sys.argv) == 1:
     # Si no se pasó argumento, solicitamos al usuario
-    rango = input("Debe informar un rango! Ingrese un rango (ej. 4-8): ")
-    # Parseamos el rango
-    start, end = map(int, rango.split('-'))
+    rango = input("Debe informar un rango! Ingrese un rango (ej. -10 o 20-): ")
+    if rango.startswith("-"):
+        end = int(rango[1:])
+        start = 1
+        calcular_factoriales_en_rango(start, end)
+    elif rango.endswith("-"):
+        start = int(rango[:-1])
+        end = 60
+        calcular_factoriales_en_rango(start, end)
+    else:
+        start, end = map(int, rango.split('-'))
+        calcular_factoriales_en_rango(start, end)
 else:
     # Si se pasó argumento, usamos el argumento
     rango = sys.argv[1]
-    # Parseamos el rango
-    start, end = map(int, rango.split('-'))
-
-# Calcular los factoriales del rango
-calcular_factoriales_en_rango(start, end)
-
-
+    if rango.startswith("-"):
+        end = int(rango[1:])
+        start = 1
+        calcular_factoriales_en_rango(start, end)
+    elif rango.endswith("-"):
+        start = int(rango[:-1])
+        end = 60
+        calcular_factoriales_en_rango(start, end)
+    else:
+        start, end = map(int, rango.split('-'))
+        calcular_factoriales_en_rango(start, end)
